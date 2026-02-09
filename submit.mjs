@@ -18,11 +18,11 @@ const API_BASE_URL =
 
 const WEBHOOK_URL = getEnv(
   'WEBHOOK_URL',
-  'https://api.demo.wonderful.ai/api/v1/tasks/webhook/39f0d424-c33a-40b8-b1ca-e82d6ee7d906'
+  'https://api.demo.wonderful.ai/api/v1/tasks/webhook/1250ac99-31bf-4ed6-993c-01f9fa456af8'
 );
 const WEBHOOK_SECRET = getEnv(
   'WEBHOOK_SECRET',
-  '517c4909-f2fb-45d3-8747-9f14ece0593b'
+  '464b0166-0aab-415c-9bd1-769c64c544f1'
 );
 const STORAGE_URL = getEnv('STORAGE_URL', `${API_BASE_URL}/api/v1/storage`);
 const STORAGE_API_KEY = getEnv(
